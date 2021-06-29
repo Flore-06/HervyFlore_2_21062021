@@ -338,13 +338,12 @@ h2{
 {
     display: flex;
     justify-content: space-between;
-    align-content: center;
 }
 
 
 .colonne-activites
 {
-    width: 23%;   
+    width: 22%;   
 }
 
 .block-activites
@@ -373,6 +372,15 @@ h2{
     border-top-right-radius: 15px;
 }
 
+.une-activite
+{
+    height: 300px;
+}
+
+.deux-activites
+{
+    height: 150px;
+}
 
 /* Footer */
 
