@@ -16,14 +16,24 @@ i
 form
 {
     margin-bottom: 20px;
+    display: flex;
+
 }
-.fa-location-dot
+.fa-map-marker-alt
 {
     color: black;
+    
+}
+
+#marker
+{
+    padding: 5px;
     background-color: #f2f2f2;
     border: 2px solid #f2f2f2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 20px;
+
 }
 
 input
@@ -208,8 +218,8 @@ em{
 
 .block-populaires img
 {
-    width: 180px;
-    height: 170PX;
+    min-width: 30%;
+    height: 170px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -217,21 +227,21 @@ em{
 
 #activites
 {
- margin:30px 0 30px 0;
+    margin:30px 0 30px 0;
+    
 }
 
-#conteneur-activites
+#ligne-activites
 {
     display: flex;
-    flex-direction: column;
 }
+
+
 
 
 .colonne-activites
 {
     width: 25%;
-    display: flex;
-    flex-wrap: wrap;
     
 }
 
