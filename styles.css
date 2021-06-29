@@ -8,10 +8,54 @@ body
     margin: 0px 30px 0 30px;
 }
 
+/* Header */
+
+#logo img
+{
+    float: left;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.header-right
+{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.header-right a
+{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: grey;
+    text-decoration: none;
+    padding: 27px 25px 0 25px;
+}
+
+.header-right a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    transition: 0.2s;
+}
+
+mark
+{
+    color: #0065fc;
+    background: none !important;
+}
+
+/* pictos */
+
 i
 {
  color: #0065FC;
 }
+
+
+/* Recherche ville */
 
 form
 {
@@ -22,6 +66,7 @@ form
 .fa-map-marker-alt
 {
     color: black;
+    padding-left: 5px;
     
 }
 
@@ -33,7 +78,6 @@ form
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 20px;
-
 }
 
 input
@@ -59,51 +103,83 @@ input[type="submit"]
     color: white;
 }
 
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: #0059df;
+}
+
+
+/* Filtres */
+
 #ligne-filtres
 {
     display: inline-block;
+    margin-bottom: 20px;
 }
 
-.fa-info
+#filtre
 {
-    margin-right: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    margin-right: 5px; 
 }
 
-
-#logo img
+.circle-icon-filtre
 {
-    float: left;
-    width: 100px;
-    padding-top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #d4e5ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
+    padding: 10px;
 }
 
-.header-right
-{
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 10px;
-}
-
-a
+.bouton-filtre
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: grey;
-    text-decoration: none;
-    padding-left: 50px;
+    background-color: white;
+    border: 2px solid #e9e9e9;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
 }
 
-a:active
+.bouton-filtre :hover
 {
-    color: #0065FC;
-    text-decoration: overline, #0065FC;
+    background-color: #0065fc;
+    color: white;
 }
 
-mark
+
+
+/* Info */
+
+.circle-icon-info
 {
-    color: #0065fc;
-    background: none !important;
+    width: 8px;
+    height: 8px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 8px;
+    vertical-align: middle;
+    padding: 8px;
+    margin-right: 10px;
 }
+
+#info
+{
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Propriétés des textes */
 
 p, li
 {
@@ -115,7 +191,7 @@ p{
     margin-top: -10px;
 }
 
-h1, h2, h3
+h1, h2, h3, h4
 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -131,10 +207,8 @@ h2{
     margin-block-end: 0em;
 }
 
-em{
-    font-weight: 700;
-    font-style: normal;
-}
+
+/* Hebergements */
 
 #hebergements, #populaires
 {
@@ -165,7 +239,6 @@ em{
     
 }
 
-
 .block-hebergements
 {
     background-color: white;
@@ -177,7 +250,15 @@ em{
     width: 30%;
     padding: 5px;
     margin-top: 25px; 
+    transition: 0.2s;
 
+}
+
+.block-hebergements:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .block-hebergements img
@@ -200,6 +281,17 @@ em{
     width: 35%;
 }
 
+#ligne-populaires-icone
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.fa-chart-line
+{
+    color: black;
+}
+
 #cards-populaires
 {
     justify-content: space-between; 
@@ -214,35 +306,45 @@ em{
     padding: 5px;
     margin-top: 25px;
     display: flex;
+    transition: 0.2s;
+}
+
+.block-populaires:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .block-populaires img
 {
-    min-width: 30%;
+    width: 30%;
     height: 170px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
+
+/* Activites */
+
 #activites
 {
-    margin:30px 0 30px 0;
+    padding:30px 0 30px 0;
     
 }
 
 #ligne-activites
 {
     display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
-
-
 
 
 .colonne-activites
 {
-    width: 25%;
-    
+    width: 23%;   
 }
 
 .block-activites
@@ -251,17 +353,28 @@ em{
     background-color: white;
     box-shadow: 0 2px 9px 1px rgba(63, 63, 63, 0.1);
     border-radius: 20px;
-    margin-top: 25px;
-    
+    margin-top: 25px;   
+    transition: 0.2s;
+}
+
+.block-activites:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .block-activites img
 {
     width: 100%;
+    height: 450px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+
+/* Footer */
 
 #footer
 {
