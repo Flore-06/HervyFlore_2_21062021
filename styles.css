@@ -54,6 +54,11 @@ i
  color: #0065FC;
 }
 
+.fa-star-grey
+{
+    color:#f2f2f2;
+}
+
 
 /* Recherche ville */
 
@@ -162,8 +167,8 @@ input[type="submit"]:hover
 
 .circle-icon-info
 {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border: 1px solid grey;
     border-radius: 50%;
     text-align: center;
@@ -276,6 +281,8 @@ h2{
     width: 100%;
 }
 
+
+
 #populaires
 {
     width: 35%;
@@ -290,6 +297,7 @@ h2{
 .fa-chart-line
 {
     color: black;
+    font-size: 1.5em;
 }
 
 #cards-populaires
@@ -325,6 +333,12 @@ h2{
     border-bottom-left-radius: 15px;
 }
 
+.description-populaires
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* Activites */
 
