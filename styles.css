@@ -343,7 +343,8 @@ h2{
 
 .colonne-activites
 {
-    width: 22%;   
+    width: 22%;
+    height: 600px;
 }
 
 .block-activites
@@ -356,6 +357,16 @@ h2{
     transition: 0.2s;
 }
 
+.une-activite img
+{
+    height: 450px;
+}
+
+.deux-activites img
+{
+    height: 171px;
+}
+
 .block-activites:hover
 {
     transform: scale(1.05);
@@ -366,21 +377,12 @@ h2{
 .block-activites img
 {
     width: 100%;
-    height: 450px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-.une-activite
-{
-    height: 300px;
-}
 
-.deux-activites
-{
-    height: 150px;
-}
 
 /* Footer */
 
