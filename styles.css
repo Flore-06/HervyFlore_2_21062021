@@ -10,31 +10,37 @@ body
 
 /* Header */
 
-#logo img
+#header
 {
-    float: left;
-    width: 100px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header-right
+#logo img
 {
-    text-align: right;
+    width: 100px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#header-right
+{
+    display: flex;
+    justify-content: flex-end;
     padding-top: 30px;
     padding-right: 10px;
 }
 
-.header-right a
+#header-right a
 {
     
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    color: grey;
+    font-weight: 400;
     text-decoration: none;
     padding: 27px 25px 0 25px;
 }
 
-.header-right a:hover
+#header-right a:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
@@ -45,6 +51,10 @@ mark
 {
     color: #0065fc;
     background: none !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 0px 25px 0 25px;
+    cursor: pointer;
 }
 
 /* pictos */
@@ -56,7 +66,7 @@ i
 
 .fa-star-grey
 {
-    color:#f2f2f2;
+    color:#e9e9e9;
 }
 
 
@@ -169,7 +179,7 @@ input[type="submit"]:hover
 {
     width: 10px;
     height: 10px;
-    border: 1px solid grey;
+    border: 1px solid #e9e9e9;
     border-radius: 50%;
     text-align: center;
     line-height: 8px;
@@ -225,8 +235,8 @@ h2{
 #conteneur-hebergements
 {
     display: flex;
-
 }
+
 #hebergements
 {
     display: flex;
@@ -413,4 +423,122 @@ ul
     list-style-type: none;
     padding-left: 0;
     padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* Disposition sur téléphone */
+
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        margin: 0;
+    }
+    
+    
+
+    #logo img
+    {
+        padding-left: 30px;
+    }
+
+
+    #header-right a
+    {
+        border-top: none !important;
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 27px;
+    }
+
+    #header-right a:hover
+    {
+        border-bottom: 3px solid #0065FC;
+    }
+    
+    #options
+    {
+        padding: 30px;
+    }
+
+    form
+    {
+        width: auto;
+    }
+
+    #conteneur-hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hebergements
+    {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 30px;
+        background-color: white;
+        border-radius: 0;
+    }
+
+    #cards-hebergements
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-hebergements
+    {
+        width: auto;
+    }
+
+    .block-hebergements img
+    {
+        height: 200px;
+    }
+
+    #populaires
+    {
+        width: auto;
+        border-radius: 0;
+    }
+
+    .block-populaires img
+    {
+        width: 40%;
+    }
+
+    #activites
+    {
+        padding: 30px;
+    }
+
+    #ligne-activites
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colonne-activites
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .deux-activites img, .une-activite img
+    {
+        height: 200px;
+    }
+
+    #footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
