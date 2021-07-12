@@ -3,9 +3,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    font-size: 100%
+}
+
 body
 {
-    font-size: 30px;
+    font-size: 1em;
 }
 
 /* Header */
@@ -19,8 +23,7 @@ body
 #logo img
 {
     width: 100px;
-    padding-top: 20px;
-    padding-right: 30px;
+    padding: 20px 30px 0 30px;
 }
 
 #header-right
@@ -74,35 +77,44 @@ i
     color:#e9e9e9;
 }
 
+.fa-star
+{
+    font-size: .9em;
+}
+
 
 /* Recherche ville */
+
+#options
+{
+    margin: 0 30px 0 30px;
+}
 
 form
 {
     margin-bottom: 20px;
     display: flex;
-
 }
+
 .fa-map-marker-alt
 {
     color: black;
     padding-left: 5px;
-    
 }
 
 #marker
 {
-    padding: 5px;
+    padding: 10px;
     background-color: #f2f2f2;
     border: 2px solid #f2f2f2;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     width: 20px;
 }
 
 input
 {
-    padding: 5px;
+    padding: 10px;
 }
 
 input[type=search] 
@@ -118,8 +130,8 @@ input[type="submit"]
     font-weight: 500;
     background-color: #0065fc;
     border: 2px solid #0065fc;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     color: white;
 }
 
@@ -183,19 +195,25 @@ input[type="submit"]:hover
 
 .circle-icon-info
 {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border: 1px solid #e9e9e9;
     border-radius: 50%;
     text-align: center;
     line-height: 8px;
     vertical-align: middle;
-    padding: 8px;
+    padding: 5px;
     margin-right: 10px;
+}
+
+.fa-info
+{
+    font-size: .7em;
 }
 
 #info
 {
+    margin-left: 30px;
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
 }
@@ -218,17 +236,18 @@ h1, h2, h3, h4
     font-weight: 700;
 }
 
-h1{
-    font-size: 1.7em;
-    padding-top: 30px;
-}
-
-h2{
+h1, h2
+{
     font-size: 1.5em;
 }
 
 
 /* Hebergements */
+
+#fond-gris
+{
+    margin: 0 30px 0 30px;
+}
 
 #hebergements, #populaires
 {
@@ -296,6 +315,11 @@ h2{
     width: 100%;
 }
 
+.bold
+{
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 
 #populaires
@@ -313,6 +337,7 @@ h2{
 {
     color: black;
     font-size: 1.5em;
+    padding-top: 25px;
 }
 
 #cards-populaires
@@ -356,6 +381,11 @@ h2{
 }
 
 /* Activites */
+
+#conteneur-activites
+{
+    margin: 0 30px 0 30px;
+}
 
 #activites
 {
