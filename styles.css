@@ -10,6 +10,7 @@ html{
 body
 {
     font-size: 1em;
+    margin: 0;
 }
 
 /* Header */
@@ -30,8 +31,13 @@ body
 {
     display: flex;
     justify-content: flex-end;
-    padding-top: 2em;
-    padding-right: 1em;
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 5px;
 }
 
 nav ul
@@ -40,13 +46,17 @@ nav ul
     align-items: center;
 }
 
-#menu a
+#menu li
 {
-    
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-decoration: none;
     padding: 2.7em 2em 0 2em;
+}
+
+#menu a
+{
+    text-decoration: none;
 }
 
 #menu a:visited
@@ -58,7 +68,7 @@ nav ul
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    /*transition: 0.2s;*/
+    transition: 0.2s;
 }
 
 #inscription
@@ -67,7 +77,8 @@ nav ul
     background: none !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    /*padding: 0px 2em 0 2em;*/
+    font-size: 1em;
+    padding: 2.7em 2em 0 2em;
     cursor: pointer;
     align-items: center;
     border: none;
@@ -168,7 +179,7 @@ input[type="submit"]:hover
     margin-right: 1em; 
 }
 
-button
+#ligne-filtres button
 {
     padding: 0 !important;
 }
@@ -470,13 +481,6 @@ h1, h2
     padding: 30px;
     display: flex;
     justify-content: space-around;
-}
-
-ul
-{
-    list-style-type: none;
-    padding-left: 0;
-    padding-bottom: 5px;
 }
 
 
