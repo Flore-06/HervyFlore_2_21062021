@@ -382,7 +382,7 @@ h1, h2
     border-radius: 20px;  
     border-width: 5px;
     padding: 5px;
-    margin-top: 25px;
+    margin-top: 1.3em;
     display: flex;
     transition: 0.2s;
 }
