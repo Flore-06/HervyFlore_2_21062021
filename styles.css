@@ -34,7 +34,13 @@ body
     padding-right: 1em;
 }
 
-#header-right a
+nav ul
+{
+    display: flex;
+    align-items: center;
+}
+
+#menu a
 {
     
     font-family: 'Raleway', sans-serif;
@@ -43,26 +49,28 @@ body
     padding: 2.7em 2em 0 2em;
 }
 
-#header-right :visited
+#menu a:visited
 {
     color: black;
 }
 
-#header-right a:hover
+#menu li:hover
 {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    transition: 0.2s;
+    /*transition: 0.2s;*/
 }
 
-mark
+#inscription
 {
     color: #0065fc;
     background: none !important;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    padding: 0px 2em 0 2em;
+    /*padding: 0px 2em 0 2em;*/
     cursor: pointer;
+    align-items: center;
+    border: none;
 }
 
 /* pictos */
@@ -148,6 +156,7 @@ input[type="submit"]:hover
 {
     display: flex;
     margin-bottom: 1.5em;
+    align-items: center;
 }
 
 #filtre
@@ -183,7 +192,8 @@ button
     margin-right: 1em;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    height: 30px;
 }
 
 .texte-bouton
@@ -192,6 +202,7 @@ button
     font-weight: bold;
     padding: 0 1em 0 1em;
 }
+
 .bouton-filtre :hover
 {
     background-color: #0065fc;
@@ -481,7 +492,10 @@ ul
 @media all and (max-width: 1024px)
 {
     
-    
+    #header
+    {
+        flex-direction: column;
+    }
 
     #logo img
     {
@@ -506,10 +520,7 @@ ul
         padding: 30px;
     }
 
-    .bouton-filtre
-    {
-        flex-direction: column;
-    }
+    
 
     form
     {
