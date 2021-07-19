@@ -413,12 +413,12 @@ h1, h2
 
 #conteneur-activites
 {
-    margin: 0 30px 0 30px;
+    margin: 0 2em 0 2em;
 }
 
 #activites
 {
-    padding:30px 0 30px 0;
+    padding:2em 0 2em 0;
     
 }
 
@@ -441,7 +441,7 @@ h1, h2
     background-color: white;
     box-shadow: 0 2px 9px 1px rgba(63, 63, 63, 0.1);
     border-radius: 20px;
-    margin-top: 25px;   
+    margin-top: 1.3em;   
     transition: 0.2s;
 }
 
@@ -477,7 +477,7 @@ h1, h2
 #footer
 {
     background-color: #f2f2f2;
-    padding: 30px;
+    padding: 2em;
     display: flex;
     justify-content: space-around;
 }
@@ -502,28 +502,21 @@ h1, h2
 
     #logo img
     {
-        padding-left: 30px;
+        padding-left: 2em;
     }
 
 
-    #header-right a
+    #menu li
     {
         border-top: none !important;
         border-bottom: 3px solid #f2f2f2;
-        padding-bottom: 27px;
+        padding-bottom: 2em;
     }
 
-    #header-right a:hover
+    #menu li:hover
     {
         border-bottom: 3px solid #0065FC;
     }
-    
-    #options
-    {
-        padding: 30px;
-    }
-
-    
 
     form
     {
@@ -540,7 +533,7 @@ h1, h2
     {
         width: auto;
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 2em;
         background-color: white;
         border-radius: 0;
     }
@@ -575,7 +568,7 @@ h1, h2
 
     #activites
     {
-        padding: 30px;
+        padding: 2em;
     }
 
     #ligne-activites
