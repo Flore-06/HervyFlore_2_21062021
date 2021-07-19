@@ -215,9 +215,10 @@ input[type="submit"]:hover
     padding: 0 1em 0 1em;
 }
 
-.bouton-filtre :hover
+.bouton-filtre:hover
 {
     background-color: #0065fc;
+    border: 2px solid #0065fc;
     color: white;
 }
 
@@ -493,8 +494,8 @@ h1, h2
 /* Disposition sur téléphone */
 
 @media all and (max-width: 1024px)
+  
 {
-    
     #header
     {
         flex-direction: column;
