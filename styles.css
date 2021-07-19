@@ -533,6 +533,11 @@ h1, h2
         border-bottom: 3px solid #0065FC;
     }
 
+    #ligne-filtres
+    {
+        flex-wrap: wrap;
+    }
+
     form
     {
         width: auto;
