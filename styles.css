@@ -115,6 +115,12 @@ form
 {
     margin-bottom: 1.5em;
     display: flex;
+    align-items: center;
+}
+
+.fa-search
+{
+    display: none;
 }
 
 .fa-map-marker-alt
@@ -541,6 +547,21 @@ h1, h2
     form
     {
         width: auto;
+    }
+
+    input[type="submit"]
+    {
+        display: none;
+    }
+
+    .fa-search
+    {
+        display: block;
+        background-color: #0065fc;
+        border: 2px solid #0065fc;
+        border-radius: 12px;
+        color: white;
+        padding: 1em;
     }
 
     #fond-gris
