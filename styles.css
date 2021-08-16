@@ -514,7 +514,10 @@ h1, h2
     justify-content: space-around;
 }
 
-
+#footer li
+{
+    padding-bottom: .5em;
+}
 
 
 
