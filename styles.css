@@ -547,6 +547,47 @@ h1, h2
     #ligne-filtres>* {
         margin: 0.5em;
     }
+
+    #fond-gris
+    {
+        margin: 0 !important;
+    }
+
+    #conteneur-hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hebergements
+    {
+        width: auto;
+        margin-right: 0;
+        background-color: white;
+        border-radius: 0;
+    }
+
+    .block-hebergements .description h3
+    {
+        margin-bottom: 0;
+    }
+
+    .block-hebergements .description p
+    {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }
+    
+    #populaires
+    {
+        width: auto;
+        border-radius: 0;
+    }
+
+    .img-pop
+    {
+        width: 40%;
+    }
 }
 
 
