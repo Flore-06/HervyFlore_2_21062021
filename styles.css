@@ -525,9 +525,52 @@ h1, h2
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* Disposition sur tablette */
+
+@media all and (max-width: 768px)
+{
+    #ligne-filtres
+    {
+        flex-wrap: wrap;
+    }
+
+    #ligne-filtres>* {
+        margin: 0.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Disposition sur téléphone */
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 480px)
   
 {
     #header
