@@ -564,17 +564,22 @@ h1, h2
     #ligne-filtres
     {
         flex-wrap: wrap;
+        
     }
 
-    #filtre
+    #ligne-filtres>* {
+        margin: 0.5em;
+    }
+
+    /*#filtre
     {
         margin-bottom: 1em;
     }
-    
+
     .bouton-filtre
     {
         margin-bottom: 1em;
-    }
+    }*/
 
     form
     {
