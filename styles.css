@@ -588,6 +588,11 @@ h1, h2
     {
         width: 40%;
     }
+
+    #footer .a-propos, .nos-hebergements
+    {
+        padding-right: 2em;
+    }
 }
 
 
