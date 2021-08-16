@@ -137,7 +137,7 @@ form
 {
     padding: .7em;
     background-color: #f2f2f2;
-    /*border: 2px solid #f2f2f2;*/
+    border: 1px solid #f2f2f2;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     width: 1.3em;
@@ -577,7 +577,7 @@ h1, h2
         margin-top: .5em;
         margin-bottom: .5em;
     }
-    
+
     #populaires
     {
         width: auto;
@@ -690,6 +690,7 @@ h1, h2
         border-radius: 12px;
         color: white;
         padding: 0.7em;
+        margin-left: -0.5em;
     }
 
     #fond-gris
