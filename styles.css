@@ -447,7 +447,11 @@ h1, h2
 #activites
 {
     padding:2em 0 2em 0;
-    
+}
+
+#activites .description
+{
+    padding-bottom: .5em;
 }
 
 #ligne-activites
