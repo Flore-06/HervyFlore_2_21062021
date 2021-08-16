@@ -642,10 +642,15 @@ h1, h2
         border-radius: 0;
     }
 
-    .block-populaires img
+    /*.block-populaires img
     {
         width: 40%;
         height: 300px;
+    }*/
+
+    .img-pop
+    {
+        width: 40%;
     }
 
     #conteneur-activites
