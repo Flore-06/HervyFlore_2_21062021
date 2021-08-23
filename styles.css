@@ -825,7 +825,10 @@ h1, h2
         height: 300px;
     }*/
 
-    
+    .block-populaires
+    {
+        flex-wrap: nowrap;
+    }
 
     .img-pop
     {
