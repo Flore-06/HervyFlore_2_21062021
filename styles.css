@@ -797,10 +797,10 @@ h1, h2
         width: auto;
     }
 
-    .block-hebergements img
+    /*.block-hebergements img
     {
         height: 300px;
-    }
+    }*/
 
     .block-hebergements .description h3
     {
@@ -851,7 +851,7 @@ h1, h2
     {
         justify-content: space-between;
     }
-    
+
     #conteneur-activites
     {
         margin: 0 !important;
@@ -876,7 +876,7 @@ h1, h2
 
     .deux-activites img, .une-activite img
     {
-        height: 300px;
+        height: 150px;
     }
 
     #footer
