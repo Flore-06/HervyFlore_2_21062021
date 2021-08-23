@@ -813,6 +813,11 @@ h1, h2
         margin-bottom: .5em;
     }
 
+    #cards-populaires
+    {
+        flex-direction: column;
+    }
+
     #populaires
     {
         width: auto;
@@ -828,6 +833,13 @@ h1, h2
     .block-populaires
     {
         flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .block-populaires img
+    {
+        border-radius: 15px 0 0 15px;
+        
     }
 
     .img-pop
@@ -835,6 +847,11 @@ h1, h2
         width: 40%;
     }
 
+    .description-populaires
+    {
+        justify-content: space-between;
+    }
+    
     #conteneur-activites
     {
         margin: 0 !important;
