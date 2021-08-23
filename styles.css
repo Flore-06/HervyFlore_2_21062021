@@ -628,7 +628,7 @@ h1, h2
 
     .img-pop
     {
-        width: 40%;
+        width: 100%;
     }
 
     #conteneur-activites
@@ -769,6 +769,8 @@ h1, h2
         margin: 0 !important;
     }
 
+    
+
     #conteneur-hebergements
     {
         display: flex;
@@ -822,6 +824,8 @@ h1, h2
         width: 40%;
         height: 300px;
     }*/
+
+    
 
     .img-pop
     {
