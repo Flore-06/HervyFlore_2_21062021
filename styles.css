@@ -582,6 +582,7 @@ h1, h2
         margin-right: 0;
         background-color: white;
         border-radius: 0;
+        padding-bottom: 0;
     }
 
     .block-hebergements .description h3
@@ -648,7 +649,7 @@ h1, h2
 
     #activites
     {
-        padding: 0 2em 2em 2em;
+        padding: 2em;
     }
 
     #ligne-activites
