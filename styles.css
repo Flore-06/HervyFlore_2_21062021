@@ -399,7 +399,7 @@ h1, h2
 
 .block-populaires
 {
-    height: 180px;
+    /*height: 180px;*/
     background-color: white;
     box-shadow: 0 2px 9px 1px rgba(63, 63, 63, 0.1);
     border-radius: 20px;  
