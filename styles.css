@@ -222,7 +222,7 @@ input[type="submit"]:hover
     border-radius: 20px;
     margin-right: 1em;
     margin-bottom: .7em;
-    /*display: flex;*/
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
@@ -402,10 +402,11 @@ h1, h2
 
 .block-populaires
 {
+    height: 180px;
     background-color: white;
     box-shadow: 0 2px 9px 1px rgba(63, 63, 63, 0.1);
     border-radius: 20px;  
-    padding: 5px;
+    /*padding: 5px;*/
     margin-top: 1.3em;
     display: flex;
     transition: 0.2s;
@@ -420,16 +421,15 @@ h1, h2
 
 .block-populaires img
 {
-    /*width: 30%;*/
     height: 170px;
     object-fit: cover;
-    /*border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;*/
 }
 
 .img-pop
 {
     width: 30%;
+    object-fit: cover;
+    margin: 5px;
 }
 
 .img-pop img
@@ -464,6 +464,11 @@ h1, h2
     padding-bottom: .5em;
 }
 
+/*.une-activite .description
+{
+    height: 100px;
+}*/
+
 #ligne-activites
 {
     display: flex;
@@ -474,7 +479,7 @@ h1, h2
 .colonne-activites
 {
     width: 22%;
-    height: 600px;
+    align-self: flex-end;
 }
 
 .block-activites
@@ -542,9 +547,17 @@ h1, h2
 
 
 
+/*@media all and (max-width: 1233px)
+{
+    padding
+}
 
 
 
+@media all and (max-width: 1115px)
+{
+
+}*/
 
 
 
