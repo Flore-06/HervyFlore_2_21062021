@@ -3,9 +3,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-/*html{
-    font-size: 100%
-}*/
 
 body
 {
@@ -464,11 +461,6 @@ h1, h2
     padding-bottom: .5em;
 }
 
-/*.une-activite .description
-{
-    height: 100px;
-}*/
-
 #ligne-activites
 {
     display: flex;
@@ -547,17 +539,7 @@ h1, h2
 
 
 
-/*@media all and (max-width: 1233px)
-{
-    padding
-}
 
-
-
-@media all and (max-width: 1115px)
-{
-
-}*/
 
 
 
@@ -673,7 +655,7 @@ h1, h2
 
     .colonne-activites
     {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
@@ -899,7 +881,7 @@ h1, h2
 
     .colonne-activites
     {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
