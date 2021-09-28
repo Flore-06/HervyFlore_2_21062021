@@ -752,12 +752,17 @@ h1, h2
     /*#filtre
     {
         margin-bottom: 1em;
-    }
+    }*/
 
     .bouton-filtre
     {
-        margin-bottom: 1em;
-    }*/
+        margin-right: .5em;
+    }
+
+    .texte-bouton
+    {
+        padding: 0 .7em 0 .7em;
+    }
 
     form
     {
